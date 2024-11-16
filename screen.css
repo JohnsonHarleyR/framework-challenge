@@ -1,4 +1,12 @@
 /* Add screen styles below */
+:root {
+    --light-green: #91E080;
+    --pale-azure: #66CFFF;
+    --atomic-tangerine: #FFA36A;
+    --tea-green: #D5F8CE;
+    --alice-blue: #F7FDFF;
+}
+
 a.active {
     font-weight: bold;
 }
