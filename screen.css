@@ -10,3 +10,46 @@
 a.active {
     font-weight: bold;
 }
+
+body {
+    background-color: var(--tea-green);
+}
+
+#about-container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    justify-self: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#about-description {
+    margin-top: 20px;
+}
+
+.contact-area {
+    border-top: 2px dashed var(--light-green);
+    padding-top: 25px;
+}
+
+#contact-image {
+    width: 150px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
